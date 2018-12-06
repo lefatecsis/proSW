@@ -3,6 +3,7 @@
 <?php
 define('backIcon', '<i class="fa fa-arrow-left" aria-hidden="true"></i>');
 
+
 // CAPTURANDO USUARIO E SENHA DIGITADOS NO FORMULARIO
 
 $userLocal = $_POST['user'];

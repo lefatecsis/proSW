@@ -4,9 +4,9 @@
 
 // PARAMETROS PARA FAZER A CONEXÃO COM O bd
 
-$hostname = 'localhost';
-$username = 'root';
-$userpwd = '';
+$hostname = 'prosw.mysql.database.azure.com';
+$username = 'prosw@prosw';
+$userpwd = 'Azure2018';
 $databasename = 'prosw';
 
 // FAZENDO CONEXÃO COM O BD

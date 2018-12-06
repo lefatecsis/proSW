@@ -1,7 +1,7 @@
 <?php
 //DEFININDO ARRAY DE PARAMETROS PARA CHAMADA DA CLASSE SOAP-SERVER
 $options = array(
-	'uri' => 'http://127.0.0.1/proSW/server.php'
+	'uri' => 'https://prosw.mysql.database.azure.com/proSW/server.php'
 );
 //INSTANCIANDO OBJETO SOAP-SERVER
 $server = new SoapServer(null, $options);

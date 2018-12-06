@@ -1,6 +1,6 @@
 	
 
-/*<?php
+<?php
 
 // PARAMETROS PARA FAZER A CONEXÃO COM O banco
 
@@ -13,8 +13,8 @@ $databasename = 'prosw';
 
 try
 	{
-	$dsn = 'mysql:host=localhost';
-	$dbh = new PDO("mysql:host=localhost; dbname=" . $databasename . ";", "root", "");
+	$dsn = 'mysql:host=prosw.mysql.database.azure.com';
+	$dbh = new PDO("mysql:host=prosw.mysql.database.azure.com; dbname=" . $databasename . ";", "prosw@prosw", "Azure2018");
 	}
 
 catch(PDOException $e)
@@ -22,17 +22,5 @@ catch(PDOException $e)
 	echo 'ERROR: ' . $e->getMessage();
 	}
 
-?>*/
+?>
 
-<?php
-$host = 'prosw.mysql.database.azure.com';
-$username = 'prosw@prosw';
-$password = 'Azure2018';
-$db_name = 'prosw';
-
-//Establishes the connection
-$conn = mysqli_init();
-mysqli_real_connect($conn, $host, $username, $password, $db_name, 3306);
-if (mysqli_connect_errno($conn)) {
-die('Failed to connect to MySQL: '.mysqli_connect_error());
-}

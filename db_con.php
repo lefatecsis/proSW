@@ -2,7 +2,7 @@
 
 <?php
 
-// PARAMETROS PARA FAZER A CONEXÃO COM O bd
+// PARAMETROS PARA FAZER A CONEXÃO COM O banco
 
 $hostname = 'prosw.mysql.database.azure.com';
 $username = 'prosw@prosw';

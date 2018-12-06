@@ -15,8 +15,8 @@ define('deleteIcon', '<i class="fa fa-trash" aria-hidden="true"></i>');
 
 //INSTANCIANDO OBJETO SOAP-CLIENT E SETANDO PARAMETROS
 $options = array(
-	'uri' => 'http://127.0.0.1/proSW/server.php',
-	'location' => 'http://127.0.0.1/proSW/server.php'
+	'uri' => 'https://prosw.mysql.database.azure.com/proSW/server.php',
+	'location' => 'https://prosw.mysql.database.azure.com/proSW/server.php'
 );
 //INSTANCIANDO SOAP CLIENT
 $client = new SoapClient(null, $options);

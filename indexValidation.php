@@ -19,7 +19,7 @@ if (empty($userLocal) || empty($passwordLocal))
 
 	// TRAZENDO USUARIO E SENHA DO BANCO
 	$options = array(
-		'url' => 'https://prosw.mysql.database.azure.com/proSW/server.php',
+		'uri' => 'https://prosw.mysql.database.azure.com/proSW/server.php',
 		'location' => 'https://prosw.mysql.database.azure.com/proSW/server.php'
 	);
 	$client = new SoapClient(null, $options);

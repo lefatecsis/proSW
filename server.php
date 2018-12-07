@@ -30,7 +30,7 @@ class prosw
 
 	// CREATE
 
-	public function create($nome, $cnpj, $titulo,  $descricao)
+	public function create($nome, $cnpj, $titulo, $descricao)
 		{
         //CARREGANDO O ARQUIVO DE CONEXÃO COM O BD
 		require ('db_con.php');
